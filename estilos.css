@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.logo {
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+header {
+    width: 100%;
+}
+
+header nav {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    background: #324D97;
+    border-radius: 3px;
+}
+
+.menu_bar {
+    display: none;
+
+}
+
+header nav ul {
+    overflow: hidden;
+    list-style: none;
+}
+
+#trab {
+    width: 160px;
+    background: #6CA63C;
+    float: right;
+    text-align: center;
+
+}
+
+#trab a:hover {
+    background: #fff;
+    color: #6CA63C;
+
+}
+
+header nav ul li {
+    float: left;
+
+}
+
+header nav ul li a {
+    color: #fff;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    transition: .4s;
+}
+
+header nav ul li span {
+    margin-right: 10px;
+}
+
+header nav ul li a:hover {
+    background: #6CA63C;
+}
+
+@media screen and (max-width:800px) {
+    header nav {
+        width: 70%;
+        height: 100%;
+        left: -100%;
+        margin: 0;
+        position: fixed;
+
+    }
+
+    #trab {
+        float: none;
+        width: 100%;
+        text-align: left;
+
+    }
+
+    header nav ul li {
+        display: block;
+        float: none;
+        border-bottom: 1px solid rgba(255, 255, 255, .3);
+    }
+
+    .menu_bar {
+        display: block;
+        width: 100%;
+        background: #ccc;
+    }
+
+    .menu_bar .bt-menu {
+        display: block;
+        padding: 12px;
+        background: #324D97;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 28px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .menu_bar span {
+        float: right;
+        font-size: 35px;
+    }
+}
+
+.contenido {
+    padding: 40px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    color: #324D97;
+}
+
+div h2 {
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+footer {
+    max-width: 900px;
+    height: 30px;
+    background: #324D97;
+    margin: auto;
+
+
+}
+
+.pie {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 5px;
+
+
+}
+
+/* codigo de INICIO (publicidad) */
+
+.slider {
+    width: 900px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 500%;
+
+    animation: cambio 25s infinite;
+
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+
+}
+
+.slider img {
+    width: 900px;
+
+}
+
+@keyFrames cambio {
+    0% {
+        margin-left: 0;
+    }
+
+    15% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: -100%;
+    }
+
+    35% {
+        margin-left: -100%;
+    }
+
+    40% {
+        margin-left: -200%;
+    }
+
+    55% {
+        margin-left: -200%;
+    }
+
+    60% {
+        margin-left: -300%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    80% {
+        margin-left: -400%;
+    }
+
+    100% {
+        margin-left: -400%;
+    }
+}
+
+/* codigo de MISION */
+
+.foto_mision {
+    display: block;
+    margin: auto;
+    padding: 40px
+}
+
+
+/* codigo de SERVICIOS */
+
+.fotos_servicio {
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+
+}
+
+
+/* codigo de CONTACTO */
+
+form {
+    max-width: 450px;
+    margin: auto;
+    background-color: #6CA63C;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: none;
+
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+
+}
+
+#boton {
+    background: #324D97;
+    color: #fff;
+    padding: 10px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+
+/* codigo de TRABAJOS */
+
+.grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    grid-gap: 5px;
+    max-width: 900px;
+    background: # 0363;
+    margin: auto;
+}
+
+.grid div {
+    background: #EBEDEF;
+    margin: auto;
+    height: 230px;
+}
+
+.grid div img {
+    max-width: 170px;
+}
+
+.grid div a {
+    display: block;
+    text-decoration: none;
+    color: #324D97;
+    padding: 2px;
+    padding-left: 20px
+}
+
+.btn {
+    width: 120px;
+    height: 30px;
+    background: #000;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
+    margin: 1px;
+    float: left;
+}
