@@ -134,19 +134,40 @@ div h2 {
 
 footer {
     max-width: 900px;
-    height: 30px;
-    background: #324D97;
+    color: white;
     margin: auto;
-
-
 }
 
-.pie {
-    color: #fff;
+footer div {
     text-align: center;
-    margin-top: 20px;
-    padding-top: 5px;
+    padding: 12px;
+}
 
+footer h5{
+    padding-right: 20px;
+}
+
+.footer_superior {
+    background: #324D97;
+}
+
+.footer_inferior {
+    background-color: #6CA63C;
+    font-size: 14px;
+
+}
+footer  a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.redes_sociales{
+   font-size: 26px 
+}
+
+.menu_footer {
+    font-size: 13px;
 
 }
 
@@ -299,6 +320,7 @@ textarea {
     background: #EBEDEF;
     margin: auto;
     height: 230px;
+    border: 1px solid #324D97;
 }
 
 .grid div img {
