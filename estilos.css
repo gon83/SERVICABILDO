@@ -327,11 +327,11 @@ textarea {
     background: #EBEDEF;
     margin: auto;
     height: 230px;
-    border: 1px solid #324D97;
+  
 }
 
 .grid div img {
-    max-width: 170px;
+    max-width: 160px;
 }
 
 .grid div a {
