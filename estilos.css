@@ -176,7 +176,7 @@ footer  a {
 marquee {
     display: block;
     margin: auto;
-    width: 900px;
+    max-width: 900px;
     color: #324D97;
     font-weight: bold;
 }
