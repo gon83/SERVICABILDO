@@ -173,6 +173,13 @@ footer  a {
 
 /* codigo de INICIO (publicidad) */
 
+marquee {
+    display: block;
+    margin: auto;
+    width: 900px;
+    color: #324D97;
+    font-weight: bold;
+}
 .slider {
     max-width: 900px;
     margin: auto;
